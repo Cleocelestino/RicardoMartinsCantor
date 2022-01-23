@@ -1,4 +1,33 @@
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
   }
+/* 
+a {
+    text-decoration: none;
+} */
+
+/* link que ainda não foi acessado */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* link que foi visitado */
+a:visited {
+   color: #555;
+}
+
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+   color: #999;
+}
+
+/* quando o link for selecionado */
+a:active {
+   color: #333;
+}
+li {
+  list-style-type: none;
+}
