@@ -28,3 +28,6 @@ a:hover {
 a:active {
    color: #333;
 }
+li {
+  list-style-type: none;
+}
